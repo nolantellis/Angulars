@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+<head>
+<meta charset="ISO-8859-1">
+<script src="js/angular.js"></script>
+<title>Add Subract Number</title>
+</head>
+<body>
+
+	<div ng-controller="AddSubractController">
+		
+		<button ng-click="add()">Add</button>
+		<button ng-click="sub()">Sub</button>
+		<h1>Add {{ addNumber }}</h1>
+		<h1>Sub {{ subNumber }}</h1>
+
+	</div>
+
+<script src="js/controller/AddSubractController.js"></script>
+</body>
+</html>
