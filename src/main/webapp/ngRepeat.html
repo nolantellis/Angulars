@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="ngRepeatModule">
+<head>
+<meta charset="ISO-8859-1">
+<title>NG Repeat</title>
+<script src="js/angular.js"></script>
+<script src="js/controller/ngRepeatController.js"></script>
+
+</head>
+<body>
+
+	<div ng-controller="ngRepeatController">
+
+		<ul>
+			<li ng-repeat="person in persons">{{person.name}} -
+				{{person.age}}</li>
+		</ul>
+	</div>
+
+</body>
+</html>
